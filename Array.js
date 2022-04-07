@@ -11,3 +11,8 @@ console.log(valores)
 console.log(valores.pop())
 delete valores[1]
 console.log(valores)
+
+// desconstruindo objetos
+
+let nomes = ['Alcemir', 'Alcinete', 'André'];
+let {0:brother1, 1:brother2} = nomes

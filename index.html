@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul>
+                <li>Início</li>
+                <li>Aulas de Javascript</li>
+                <li>Aulas de Python</li>
+                <li>Aulas de React</li>
+                <li>Aulas de Angular</li>
+                <li>Aulas de SQL</li>
+                <li>Git e GitHub</li>
+            </ul>
+        </div>
+    </header>
+    <section id="banner-topo">
+        <div class="container">
+            <h1>Minhas Atividades e Anotações Acadêmicas</h1>
+            <div id="area">
+                <h1>InnerHtml</h1>
+            </div>
+            <br/>
+            <button onclick="document.getElementById('area').innerHTML = 'Bem vindo ' +  prompt('Digite seu nome')">clique aqui</button>
+            <br><br>
+            <button onclick="this.innerHTML = prompt('Digite o nome do botão');">Não tem nome</button>
+        
+            <script src="scriptHtml.js"></script>
+        </div>
+    </section>
+
+    
+</body>
+</html>
