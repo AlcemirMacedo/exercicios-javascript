@@ -25,17 +25,34 @@
         </div>
     </header>
     <section id="banner-topo">
+        <div class="container titulo-pagina">
+            <h1 class="titulo-pagina">Minhas Atividades e Anotações Acadêmicas</h1>
+            <p>Alcemir Macedo de Souza</p>
+        </div>
+    </section>
+
+
+    <section id="conteudo1" class="container">
+        <div id="area">
+            <h2>InnerHtml</h2>
+        </div>
+        <br/>
+        <button onclick="document.getElementById('area').innerHTML = 'Bem vindo ' +  prompt('Digite seu nome')">clique aqui</button>
+        <br><br>
+        <button onclick="this.innerHTML = prompt('Digite o nome do botão');">Não tem nome</button>
+    
+        <script src="scriptHtml.js"></script>
+         
+        <hr>
         <div class="container">
-            <h1>Minhas Atividades e Anotações Acadêmicas</h1>
-            <div id="area">
-                <h1>InnerHtml</h1>
-            </div>
-            <br/>
-            <button onclick="document.getElementById('area').innerHTML = 'Bem vindo ' +  prompt('Digite seu nome')">clique aqui</button>
-            <br><br>
-            <button onclick="this.innerHTML = prompt('Digite o nome do botão');">Não tem nome</button>
+            <h2>Spread Operator</h2>
+
+            <code>
+                let primeiros = [1, 2, 3];
+                <br>
+                let numeros = [...primeiros, 4, 5, 6];
+            </code>
         
-            <script src="scriptHtml.js"></script>
         </div>
     </section>
 
