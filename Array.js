@@ -16,3 +16,4 @@ console.log(valores)
 
 let nomes = ['Alcemir', 'Alcinete', 'André'];
 let {0:brother1, 1:brother2} = nomes
+
